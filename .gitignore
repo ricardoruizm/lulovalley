@@ -1,0 +1,6 @@
+# Ignore downloaded assets from saved web pages
+github-home_files/
+github-home.html
+
+# Ignore common development folders
+node_modules/

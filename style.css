@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --background-color: #0d1117;
+    --text-color: #c9d1d9;
+    --accent-color: #58a6ff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+}
+
+h1 {
+    color: #fff; /* Un poco más de énfasis para el título */
+}
+
+/* Estilos para el formulario */
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--background-color);
+    font-weight: bold;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #79bbff; /* Un tono más claro para el hover/focus */
+    border-color: #79bbff;
+    color: var(--background-color);
+}
+
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 0.25rem rgba(88, 166, 255, 0.25);
+}
+
+.form-control {
+    background-color: #161b22;
+    border-color: #30363d;
+    color: var(--text-color);
+}
+
+.form-control::placeholder {
+    color: #8b949e;
+}
