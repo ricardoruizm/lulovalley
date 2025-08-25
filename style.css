@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
-    --background-color: #0d1117;
-    --text-color: #c9d1d9;
-    --accent-color: #58a6ff;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #ff5500;
+    --primary-button-color: #76bf42;
+    --primary-button-hover-color: #faa43e;
 }
 
 body {
@@ -18,34 +20,34 @@ body {
 }
 
 h1 {
-    color: #fff; /* Un poco más de énfasis para el título */
+    color: var(--text-color);
 }
 
 /* Estilos para el formulario */
 .btn-primary {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
-    color: var(--background-color);
+    background-color: var(--primary-button-color);
+    border-color: var(--primary-button-color);
+    color: #ffffff;
     font-weight: bold;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-    background-color: #79bbff; /* Un tono más claro para el hover/focus */
-    border-color: #79bbff;
-    color: var(--background-color);
+    background-color: var(--primary-button-hover-color);
+    border-color: var(--primary-button-hover-color);
+    color: #ffffff;
 }
 
 .form-control:focus {
     border-color: var(--accent-color);
-    box-shadow: 0 0 0 0.25rem rgba(88, 166, 255, 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(255, 85, 0, 0.25);
 }
 
 .form-control {
-    background-color: #161b22;
-    border-color: #30363d;
+    background-color: #ffffff;
+    border-color: #cccccc;
     color: var(--text-color);
 }
 
 .form-control::placeholder {
-    color: #8b949e;
+    color: #888888;
 }
